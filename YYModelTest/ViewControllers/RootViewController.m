@@ -9,8 +9,9 @@
 #import "RootViewController.h"
 #import "SVProgressHUD.h"
 #import "HistoryApi.h"
-
+#import "KLRCache.h"
 @interface RootViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *cacheSizeLabel;
 
 @end
 
@@ -19,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[KLRCache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
+        self.cacheSizeLabel.text = diskSize;
+    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -27,20 +31,22 @@
     NSLog(@"root---即将展示");
     HistoryApi *api = [HistoryApi createApiWithNeedDisplayHUD: NO];
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-//        NSLog(@"history: %@", request.responseObject);
         
-        //        NSDictionary *data = [request.responseObject objectForKey:@"data"];
-        //        NSDictionary *historyDic = [data objectForKey:@"history"];
-        //
-        //        KLRHistory *histroy = [KLRHistory createModelWithJson: historyDic];
-        //
-        //        NSDictionary *jsonObject = [histroy yy_modelToJSONObject];
-        //        NSLog(@"%@", jsonObject);
-        
-        NSLog(@"histroy");
+        [[KLRCache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
+            self.cacheSizeLabel.text = diskSize;
+        }];
+
     } failure:^(__kindof YTKBaseRequest * _Nonnull request) {
         NSLog(@"request: %@", request.responseJSONObject);
     }];
 
+}
+
+- (IBAction)clickRemoveCacheBtn:(id)sender {
+    [SVProgressHUD show];
+    [[KLRCache shareInstance] removeAllCacheWithCompleteBlock:^{
+        [SVProgressHUD dismiss];
+        self.cacheSizeLabel.text = @"0 B";
+    }];
 }
 @end

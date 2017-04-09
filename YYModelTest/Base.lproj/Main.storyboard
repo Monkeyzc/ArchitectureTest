@@ -45,10 +45,28 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="HYQ-vC-dTs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="缓存数据大小" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGG-gn-zmj">
+                                <rect key="frame" x="128" y="431" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6J-J2-1Ze">
+                                <rect key="frame" x="149" y="491" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="清除缓存"/>
+                                <connections>
+                                    <action selector="clickRemoveCacheBtn:" destination="493-vj-695" eventType="touchUpInside" id="Jxc-Hk-6ni"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="GBd-Dc-6ta"/>
+                    <connections>
+                        <outlet property="cacheSizeLabel" destination="lGG-gn-zmj" id="Ekx-3d-DrE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NFC-ok-Tie" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
