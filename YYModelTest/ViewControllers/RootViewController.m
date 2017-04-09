@@ -27,7 +27,7 @@
     NSLog(@"root---即将展示");
     HistoryApi *api = [HistoryApi createApiWithNeedDisplayHUD: NO];
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
-        NSLog(@"history: %@", request.responseObject);
+//        NSLog(@"history: %@", request.responseObject);
         
         //        NSDictionary *data = [request.responseObject objectForKey:@"data"];
         //        NSDictionary *historyDic = [data objectForKey:@"history"];

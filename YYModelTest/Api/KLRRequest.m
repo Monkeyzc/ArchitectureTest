@@ -10,11 +10,16 @@
 
 #import "KLRAlertView.h"
 #import "KLRRequestAccessory.h"
+#import "KLRCache.h"
 
 @implementation KLRRequest
 
 + (instancetype)createApiWithNeedDisplayHUD: (BOOL)isNeedDisplayHUD {
     KLRRequest *request = [[self alloc] init];
+    
+    //默认添加数据缓存, YYCache
+    request.cache = YES;
+    
     // 添加请求的附件, 指示网络正在进行
     [request addAccessory:[KLRRequestAccessory createRequestAccessoryWithNeedDisplayHUD: isNeedDisplayHUD]];
     return request;
@@ -27,7 +32,13 @@
     return @{@"Authorization": @"Bearer 04b4dac0e94333b45474a6acc4f0eeea9ef74e73"};
 }
 
-
+- (void)requestCompleteFilter {
+    if (self.cache) {
+        [[KLRCache shareInstance] cacheData:self.responseJSONObject withKey:NSStringFromClass([self class]) completeBlock:^{
+            NSLog(@"请求:%@, url:%@ 缓存完成", NSStringFromClass([self class]), self.requestUrl);
+        }];
+    }
+}
 
 - (void)requestFailedFilter {
     // 请求失败的过滤处理

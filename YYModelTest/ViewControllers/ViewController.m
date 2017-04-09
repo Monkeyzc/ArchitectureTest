@@ -16,6 +16,7 @@
 #import "YTKNetworkAgent.h"
 
 #import "KLRAlertView.h"
+#import "YYCache.h"
 
 @interface ViewController ()
 
@@ -35,17 +36,7 @@
     HistoryApi *api = [HistoryApi createApiWithNeedDisplayHUD: YES];
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
         
-        NSLog(@"history: %@", request.responseObject);
-        
-        NSDictionary *data = [request.responseObject objectForKey:@"data"];
-        NSDictionary *historyDic = [data objectForKey:@"history"];
-        
-        KLRHistory *histroy = [KLRHistory createModelWithJson: historyDic];
-        
-//        NSDictionary *jsonObject = [histroy yy_modelToJSONObject];
-//        NSLog(@"%@", jsonObject);
-        
-        NSLog(@"histroy model: %@", histroy);
+        [self parseResponseData: request.responseJSONObject];
         
         [KLRAlertView showSuccessWithMessage:@"Success" dismissCompleteBlock:^{
             UIViewController *vc = [UIViewController new];
@@ -57,6 +48,14 @@
         NSLog(@"request: %@", request.responseJSONObject);
     }];
 }
+
+- (void)parseResponseData: (NSDictionary *)responseData {
+    NSDictionary *data = [responseData objectForKey:@"data"];
+    NSDictionary *historyDic = [data objectForKey:@"history"];
+    KLRHistory *histroy = [KLRHistory createModelWithJson: historyDic];
+    NSLog(@"history model: %@", histroy);
+}
+
 - (IBAction)cancelRequest:(id)sender {
     NSLog(@"cancel all requests");
     if ([SVProgressHUD isVisible]) {

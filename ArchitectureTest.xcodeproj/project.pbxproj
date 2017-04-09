@@ -62,6 +62,12 @@
 		A4A43F991E9934780022D42B /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F901E9934780022D42B /* SCLTimerDisplay.m */; };
 		A4A43F9A1E9934780022D42B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F921E9934780022D42B /* UIImage+ImageEffects.m */; };
 		A4A43F9F1E9940CE0022D42B /* KLRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F9E1E9940CE0022D42B /* KLRAlertView.m */; };
+		A4DE3F461E9A6CF000A6AD2F /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F3F1E9A6CF000A6AD2F /* YYCache.m */; };
+		A4DE3F471E9A6CF000A6AD2F /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F411E9A6CF000A6AD2F /* YYDiskCache.m */; };
+		A4DE3F481E9A6CF000A6AD2F /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F431E9A6CF000A6AD2F /* YYKVStorage.m */; };
+		A4DE3F491E9A6CF000A6AD2F /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */; };
+		A4DE3F4C1E9A6D2700A6AD2F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */; };
+		A4DE3F501E9A763D00A6AD2F /* KLRCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +184,17 @@
 		A4A43F921E9934780022D42B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		A4A43F9D1E9940CE0022D42B /* KLRAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRAlertView.h; sourceTree = "<group>"; };
 		A4A43F9E1E9940CE0022D42B /* KLRAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRAlertView.m; sourceTree = "<group>"; };
+		A4DE3F3E1E9A6CF000A6AD2F /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		A4DE3F3F1E9A6CF000A6AD2F /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		A4DE3F401E9A6CF000A6AD2F /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		A4DE3F411E9A6CF000A6AD2F /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		A4DE3F421E9A6CF000A6AD2F /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		A4DE3F431E9A6CF000A6AD2F /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		A4DE3F441E9A6CF000A6AD2F /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A4DE3F4E1E9A763D00A6AD2F /* KLRCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRCache.h; sourceTree = "<group>"; };
+		A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DE3F4C1E9A6D2700A6AD2F /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +214,7 @@
 			children = (
 				A4A43E971E97A73E0022D42B /* ArchitectureTest */,
 				A4A43E961E97A73E0022D42B /* Products */,
+				A4DE3F4A1E9A6D2700A6AD2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +234,7 @@
 				A4A43EF11E97A85B0022D42B /* HistoryApi.h */,
 				A4A43EF21E97A85B0022D42B /* HistoryApi.m */,
 				A4A43EA11E97A73E0022D42B /* Main.storyboard */,
+				A4DE3F4D1E9A762C00A6AD2F /* CacheManager */,
 				A4A43F661E987C1C0022D42B /* Api */,
 				A4A43F0E1E97E3BB0022D42B /* Models */,
 				A4A43F771E98A4440022D42B /* ViewControllers */,
@@ -240,6 +260,7 @@
 		A4A43EAF1E97A80D0022D42B /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				A4DE3F3D1E9A6CF000A6AD2F /* YYCache */,
 				A4A43F811E9934780022D42B /* SCLAlertView */,
 				A4A43EF41E97B4B70022D42B /* YYModel */,
 				A4A43EE11E97A8390022D42B /* SVProgressHUD */,
@@ -463,6 +484,38 @@
 			path = AlterView;
 			sourceTree = "<group>";
 		};
+		A4DE3F3D1E9A6CF000A6AD2F /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE3F3E1E9A6CF000A6AD2F /* YYCache.h */,
+				A4DE3F3F1E9A6CF000A6AD2F /* YYCache.m */,
+				A4DE3F401E9A6CF000A6AD2F /* YYDiskCache.h */,
+				A4DE3F411E9A6CF000A6AD2F /* YYDiskCache.m */,
+				A4DE3F421E9A6CF000A6AD2F /* YYKVStorage.h */,
+				A4DE3F431E9A6CF000A6AD2F /* YYKVStorage.m */,
+				A4DE3F441E9A6CF000A6AD2F /* YYMemoryCache.h */,
+				A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		A4DE3F4A1E9A6D2700A6AD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4DE3F4D1E9A762C00A6AD2F /* CacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE3F4E1E9A763D00A6AD2F /* KLRCache.h */,
+				A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */,
+			);
+			path = CacheManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -546,14 +599,18 @@
 				A4A43EFA1E97B4B70022D42B /* NSObject+YYModel.m in Sources */,
 				A4A43E9D1E97A73E0022D42B /* AppDelegate.m in Sources */,
 				A4A43ED81E97A80D0022D42B /* YTKBaseRequest.m in Sources */,
+				A4DE3F501E9A763D00A6AD2F /* KLRCache.m in Sources */,
 				A4A43F5F1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.m in Sources */,
 				A4A43F631E97EF550022D42B /* KLRPayload.m in Sources */,
+				A4DE3F481E9A6CF000A6AD2F /* YYKVStorage.m in Sources */,
 				A4A43EDD1E97A80D0022D42B /* YTKNetworkAgent.m in Sources */,
 				A4A43EDE1E97A80D0022D42B /* YTKNetworkConfig.m in Sources */,
 				A4A43F981E9934780022D42B /* SCLTextView.m in Sources */,
 				A4A43EDC1E97A80D0022D42B /* YTKChainRequestAgent.m in Sources */,
 				A4A43F951E9934780022D42B /* SCLAlertViewStyleKit.m in Sources */,
+				A4DE3F491E9A6CF000A6AD2F /* YYMemoryCache.m in Sources */,
 				A4A43EDF1E97A80D0022D42B /* YTKNetworkPrivate.m in Sources */,
+				A4DE3F461E9A6CF000A6AD2F /* YYCache.m in Sources */,
 				A4A43ED31E97A80D0022D42B /* AFNetworkReachabilityManager.m in Sources */,
 				A4A43EF31E97A85B0022D42B /* HistoryApi.m in Sources */,
 				A4A43E9A1E97A73E0022D42B /* main.m in Sources */,
@@ -581,6 +638,7 @@
 				A4A43F5E1E97EF550022D42B /* KLRHistory.m in Sources */,
 				A4A43F7F1E98A4440022D42B /* RootViewController.m in Sources */,
 				A4A43EDA1E97A80D0022D42B /* YTKBatchRequestAgent.m in Sources */,
+				A4DE3F471E9A6CF000A6AD2F /* YYDiskCache.m in Sources */,
 				A4A43F941E9934780022D42B /* SCLAlertViewResponder.m in Sources */,
 				A4A43F611E97EF550022D42B /* KLRPayeeOrPayer.m in Sources */,
 				A4A43F601E97EF550022D42B /* KLRLinkedAccountForHistory.m in Sources */,

@@ -23,6 +23,11 @@
     }
  }
  */
-
 + (instancetype)createApiWithNeedDisplayHUD: (BOOL)isNeedDisplayHUD;
+
+
+/**
+ 是否采用YYCache 缓存机制, 默认YES
+ */
+@property (nonatomic, assign, readwrite) BOOL cache;
 @end
