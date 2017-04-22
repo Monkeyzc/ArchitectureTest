@@ -20,6 +20,17 @@
     [alert showError:message subTitle:nil closeButtonTitle:@"OK" duration:0.0f];
 }
 
++ (void)showErrorWithMessage:(NSString *)message dismissCompleteBlock:(void (^)())completeBlock {
+    SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
+    alert.showAnimationType =  SCLAlertViewShowAnimationSlideInToCenter;
+    [alert showError:message subTitle:nil closeButtonTitle:@"OK" duration:0.0f];
+    [alert alertShowAnimationIsCompleted:^{
+        if (completeBlock) {
+            completeBlock();
+        }
+    }];
+}
+
 + (void)showSuccessWithMessage:(NSString *)message {
     SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
     alert.showAnimationType =  SCLAlertViewShowAnimationSlideInToCenter;

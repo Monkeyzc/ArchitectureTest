@@ -52,10 +52,13 @@
     
     if (self.responseJSONObject == nil || self.responseStatusCode == 0 || self.responseStatusCode == 503) {
         NSLog(@"服务器挂掉了!😓");
-        [KLRAlertView showErrorWithMessage:@"Something wrong with network, please check it"];
-        
+        [KLRAlertView showErrorWithMessage:@"Something wrong with network, please check it" dismissCompleteBlock:^{
+            
+        }];
     } else {
-        [KLRAlertView showErrorWithMessage:[self getErrorMessage]];
+        [KLRAlertView showErrorWithMessage:[self getErrorMessage] dismissCompleteBlock:^{
+            
+        }];
     }
 }
 

@@ -11,6 +11,7 @@
 @interface KLRAlertView : SCLAlertView
 
 + (void)showErrorWithMessage:(NSString *)message;
++ (void)showErrorWithMessage:(NSString *)message dismissCompleteBlock: (void (^)())completeBlock;
 + (void)showSuccessWithMessage:(NSString *)message;
 + (void)showSuccessWithMessage:(NSString *)message dismissCompleteBlock: (void (^)())completeBlock;
 @end
