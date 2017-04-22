@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A444609C1E99460200BFD015 /* KLRRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = A444609B1E99460200BFD015 /* KLRRequestAccessory.m */; };
+		A444609C1E99460200BFD015 /* RequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = A444609B1E99460200BFD015 /* RequestAccessory.m */; };
 		A4A43E9A1E97A73E0022D42B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43E991E97A73E0022D42B /* main.m */; };
 		A4A43E9D1E97A73E0022D42B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43E9C1E97A73E0022D42B /* AppDelegate.m */; };
 		A4A43EA31E97A73E0022D42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A43EA11E97A73E0022D42B /* Main.storyboard */; };
@@ -37,19 +37,19 @@
 		A4A43EFA1E97B4B70022D42B /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43EF61E97B4B70022D42B /* NSObject+YYModel.m */; };
 		A4A43EFB1E97B4B70022D42B /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43EF81E97B4B70022D42B /* YYClassInfo.m */; };
 		A4A43F1B1E97E3BB0022D42B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F101E97E3BB0022D42B /* BaseModel.m */; };
-		A4A43F1D1E97E3BB0022D42B /* KLRCurrencyCNS.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F141E97E3BB0022D42B /* KLRCurrencyCNS.m */; };
-		A4A43F5C1E97EF550022D42B /* KLRContactProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F451E97EF550022D42B /* KLRContactProfile.m */; };
-		A4A43F5D1E97EF550022D42B /* KLRConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F471E97EF550022D42B /* KLRConversion.m */; };
-		A4A43F5E1E97EF550022D42B /* KLRHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F491E97EF550022D42B /* KLRHistory.m */; };
-		A4A43F5F1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F4C1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.m */; };
-		A4A43F601E97EF550022D42B /* KLRLinkedAccountForHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F4E1E97EF550022D42B /* KLRLinkedAccountForHistory.m */; };
-		A4A43F611E97EF550022D42B /* KLRPayeeOrPayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F501E97EF550022D42B /* KLRPayeeOrPayer.m */; };
-		A4A43F621E97EF550022D42B /* KLRAccountDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F541E97EF550022D42B /* KLRAccountDetails.m */; };
-		A4A43F631E97EF550022D42B /* KLRPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F561E97EF550022D42B /* KLRPayload.m */; };
-		A4A43F641E97EF550022D42B /* KLRRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F591E97EF550022D42B /* KLRRecipient.m */; };
-		A4A43F651E97EF550022D42B /* KLRTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F5B1E97EF550022D42B /* KLRTransaction.m */; };
-		A4A43F6A1E987EB30022D42B /* KLRRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F691E987EB20022D42B /* KLRRequest.m */; };
-		A4A43F701E988E190022D42B /* KLRUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F6F1E988E190022D42B /* KLRUrlArgumentsFilter.m */; };
+		A4A43F1D1E97E3BB0022D42B /* CurrencyCNS.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F141E97E3BB0022D42B /* CurrencyCNS.m */; };
+		A4A43F5C1E97EF550022D42B /* ContactProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F451E97EF550022D42B /* ContactProfile.m */; };
+		A4A43F5D1E97EF550022D42B /* Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F471E97EF550022D42B /* Conversion.m */; };
+		A4A43F5E1E97EF550022D42B /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F491E97EF550022D42B /* History.m */; };
+		A4A43F5F1E97EF550022D42B /* LinkedAccountDetailsForHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F4C1E97EF550022D42B /* LinkedAccountDetailsForHistory.m */; };
+		A4A43F601E97EF550022D42B /* LinkedAccountForHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F4E1E97EF550022D42B /* LinkedAccountForHistory.m */; };
+		A4A43F611E97EF550022D42B /* PayeeOrPayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F501E97EF550022D42B /* PayeeOrPayer.m */; };
+		A4A43F621E97EF550022D42B /* AccountDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F541E97EF550022D42B /* AccountDetails.m */; };
+		A4A43F631E97EF550022D42B /* Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F561E97EF550022D42B /* Payload.m */; };
+		A4A43F641E97EF550022D42B /* Recipient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F591E97EF550022D42B /* Recipient.m */; };
+		A4A43F651E97EF550022D42B /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F5B1E97EF550022D42B /* Transaction.m */; };
+		A4A43F6A1E987EB30022D42B /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F691E987EB20022D42B /* Request.m */; };
+		A4A43F701E988E190022D42B /* UrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F6F1E988E190022D42B /* UrlArgumentsFilter.m */; };
 		A4A43F7E1E98A4440022D42B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F791E98A4440022D42B /* BaseViewController.m */; };
 		A4A43F7F1E98A4440022D42B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F7B1E98A4440022D42B /* RootViewController.m */; };
 		A4A43F801E98A4440022D42B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F7D1E98A4440022D42B /* ViewController.m */; };
@@ -61,13 +61,13 @@
 		A4A43F981E9934780022D42B /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F8E1E9934780022D42B /* SCLTextView.m */; };
 		A4A43F991E9934780022D42B /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F901E9934780022D42B /* SCLTimerDisplay.m */; };
 		A4A43F9A1E9934780022D42B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F921E9934780022D42B /* UIImage+ImageEffects.m */; };
-		A4A43F9F1E9940CE0022D42B /* KLRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F9E1E9940CE0022D42B /* KLRAlertView.m */; };
+		A4A43F9F1E9940CE0022D42B /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A43F9E1E9940CE0022D42B /* AlertView.m */; };
 		A4DE3F461E9A6CF000A6AD2F /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F3F1E9A6CF000A6AD2F /* YYCache.m */; };
 		A4DE3F471E9A6CF000A6AD2F /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F411E9A6CF000A6AD2F /* YYDiskCache.m */; };
 		A4DE3F481E9A6CF000A6AD2F /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F431E9A6CF000A6AD2F /* YYKVStorage.m */; };
 		A4DE3F491E9A6CF000A6AD2F /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */; };
 		A4DE3F4C1E9A6D2700A6AD2F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */; };
-		A4DE3F501E9A763D00A6AD2F /* KLRCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */; };
+		A4DE3F501E9A763D00A6AD2F /* Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F4F1E9A763D00A6AD2F /* Cache.m */; };
 		A4F0F3C41EAB5D2F00836F88 /* jsoneditor-icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3BD1EAB5D2F00836F88 /* jsoneditor-icons.svg */; };
 		A4F0F3C51EAB5D2F00836F88 /* jsoneditor.css in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3BE1EAB5D2F00836F88 /* jsoneditor.css */; };
 		A4F0F3C61EAB5D2F00836F88 /* jsoneditor.js in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3BF1EAB5D2F00836F88 /* jsoneditor.js */; };
@@ -77,8 +77,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A444609A1E99460200BFD015 /* KLRRequestAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRRequestAccessory.h; sourceTree = "<group>"; };
-		A444609B1E99460200BFD015 /* KLRRequestAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRRequestAccessory.m; sourceTree = "<group>"; };
+		A444609A1E99460200BFD015 /* RequestAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAccessory.h; sourceTree = "<group>"; };
+		A444609B1E99460200BFD015 /* RequestAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestAccessory.m; sourceTree = "<group>"; };
 		A4A43E951E97A73E0022D42B /* YYModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A43E991E97A73E0022D42B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4A43E9B1E97A73E0022D42B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,33 +138,33 @@
 		A4A43EF91E97B4B70022D42B /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		A4A43F0F1E97E3BB0022D42B /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		A4A43F101E97E3BB0022D42B /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		A4A43F131E97E3BB0022D42B /* KLRCurrencyCNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRCurrencyCNS.h; sourceTree = "<group>"; };
-		A4A43F141E97E3BB0022D42B /* KLRCurrencyCNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRCurrencyCNS.m; sourceTree = "<group>"; };
-		A4A43F441E97EF550022D42B /* KLRContactProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRContactProfile.h; sourceTree = "<group>"; };
-		A4A43F451E97EF550022D42B /* KLRContactProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRContactProfile.m; sourceTree = "<group>"; };
-		A4A43F461E97EF550022D42B /* KLRConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRConversion.h; sourceTree = "<group>"; };
-		A4A43F471E97EF550022D42B /* KLRConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRConversion.m; sourceTree = "<group>"; };
-		A4A43F481E97EF550022D42B /* KLRHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRHistory.h; sourceTree = "<group>"; };
-		A4A43F491E97EF550022D42B /* KLRHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRHistory.m; sourceTree = "<group>"; };
-		A4A43F4B1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRLinkedAccountDetailsForHistory.h; sourceTree = "<group>"; };
-		A4A43F4C1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRLinkedAccountDetailsForHistory.m; sourceTree = "<group>"; };
-		A4A43F4D1E97EF550022D42B /* KLRLinkedAccountForHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRLinkedAccountForHistory.h; sourceTree = "<group>"; };
-		A4A43F4E1E97EF550022D42B /* KLRLinkedAccountForHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRLinkedAccountForHistory.m; sourceTree = "<group>"; };
-		A4A43F4F1E97EF550022D42B /* KLRPayeeOrPayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRPayeeOrPayer.h; sourceTree = "<group>"; };
-		A4A43F501E97EF550022D42B /* KLRPayeeOrPayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRPayeeOrPayer.m; sourceTree = "<group>"; };
-		A4A43F531E97EF550022D42B /* KLRAccountDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRAccountDetails.h; sourceTree = "<group>"; };
-		A4A43F541E97EF550022D42B /* KLRAccountDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRAccountDetails.m; sourceTree = "<group>"; };
-		A4A43F551E97EF550022D42B /* KLRPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRPayload.h; sourceTree = "<group>"; };
-		A4A43F561E97EF550022D42B /* KLRPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRPayload.m; sourceTree = "<group>"; };
-		A4A43F581E97EF550022D42B /* KLRRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRRecipient.h; sourceTree = "<group>"; };
-		A4A43F591E97EF550022D42B /* KLRRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRRecipient.m; sourceTree = "<group>"; };
-		A4A43F5A1E97EF550022D42B /* KLRTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRTransaction.h; sourceTree = "<group>"; };
-		A4A43F5B1E97EF550022D42B /* KLRTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRTransaction.m; sourceTree = "<group>"; };
-		A4A43F671E987C710022D42B /* KLRApis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLRApis.h; sourceTree = "<group>"; };
-		A4A43F681E987EB20022D42B /* KLRRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRRequest.h; sourceTree = "<group>"; };
-		A4A43F691E987EB20022D42B /* KLRRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRRequest.m; sourceTree = "<group>"; };
-		A4A43F6E1E988E190022D42B /* KLRUrlArgumentsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRUrlArgumentsFilter.h; sourceTree = "<group>"; };
-		A4A43F6F1E988E190022D42B /* KLRUrlArgumentsFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRUrlArgumentsFilter.m; sourceTree = "<group>"; };
+		A4A43F131E97E3BB0022D42B /* CurrencyCNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyCNS.h; sourceTree = "<group>"; };
+		A4A43F141E97E3BB0022D42B /* CurrencyCNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyCNS.m; sourceTree = "<group>"; };
+		A4A43F441E97EF550022D42B /* ContactProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactProfile.h; sourceTree = "<group>"; };
+		A4A43F451E97EF550022D42B /* ContactProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactProfile.m; sourceTree = "<group>"; };
+		A4A43F461E97EF550022D42B /* Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversion.h; sourceTree = "<group>"; };
+		A4A43F471E97EF550022D42B /* Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversion.m; sourceTree = "<group>"; };
+		A4A43F481E97EF550022D42B /* History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		A4A43F491E97EF550022D42B /* History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		A4A43F4B1E97EF550022D42B /* LinkedAccountDetailsForHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedAccountDetailsForHistory.h; sourceTree = "<group>"; };
+		A4A43F4C1E97EF550022D42B /* LinkedAccountDetailsForHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedAccountDetailsForHistory.m; sourceTree = "<group>"; };
+		A4A43F4D1E97EF550022D42B /* LinkedAccountForHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedAccountForHistory.h; sourceTree = "<group>"; };
+		A4A43F4E1E97EF550022D42B /* LinkedAccountForHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedAccountForHistory.m; sourceTree = "<group>"; };
+		A4A43F4F1E97EF550022D42B /* PayeeOrPayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayeeOrPayer.h; sourceTree = "<group>"; };
+		A4A43F501E97EF550022D42B /* PayeeOrPayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayeeOrPayer.m; sourceTree = "<group>"; };
+		A4A43F531E97EF550022D42B /* AccountDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDetails.h; sourceTree = "<group>"; };
+		A4A43F541E97EF550022D42B /* AccountDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDetails.m; sourceTree = "<group>"; };
+		A4A43F551E97EF550022D42B /* Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payload.h; sourceTree = "<group>"; };
+		A4A43F561E97EF550022D42B /* Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payload.m; sourceTree = "<group>"; };
+		A4A43F581E97EF550022D42B /* Recipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipient.h; sourceTree = "<group>"; };
+		A4A43F591E97EF550022D42B /* Recipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipient.m; sourceTree = "<group>"; };
+		A4A43F5A1E97EF550022D42B /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		A4A43F5B1E97EF550022D42B /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		A4A43F671E987C710022D42B /* Apis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apis.h; sourceTree = "<group>"; };
+		A4A43F681E987EB20022D42B /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		A4A43F691E987EB20022D42B /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		A4A43F6E1E988E190022D42B /* UrlArgumentsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlArgumentsFilter.h; sourceTree = "<group>"; };
+		A4A43F6F1E988E190022D42B /* UrlArgumentsFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlArgumentsFilter.m; sourceTree = "<group>"; };
 		A4A43F781E98A4440022D42B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		A4A43F791E98A4440022D42B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		A4A43F7A1E98A4440022D42B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		A4A43F901E9934780022D42B /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
 		A4A43F911E9934780022D42B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		A4A43F921E9934780022D42B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		A4A43F9D1E9940CE0022D42B /* KLRAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRAlertView.h; sourceTree = "<group>"; };
-		A4A43F9E1E9940CE0022D42B /* KLRAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRAlertView.m; sourceTree = "<group>"; };
+		A4A43F9D1E9940CE0022D42B /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		A4A43F9E1E9940CE0022D42B /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 		A4DE3F3E1E9A6CF000A6AD2F /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
 		A4DE3F3F1E9A6CF000A6AD2F /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
 		A4DE3F401E9A6CF000A6AD2F /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
@@ -198,8 +198,8 @@
 		A4DE3F441E9A6CF000A6AD2F /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
 		A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
 		A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		A4DE3F4E1E9A763D00A6AD2F /* KLRCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRCache.h; sourceTree = "<group>"; };
-		A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRCache.m; sourceTree = "<group>"; };
+		A4DE3F4E1E9A763D00A6AD2F /* Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		A4DE3F4F1E9A763D00A6AD2F /* Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cache.m; sourceTree = "<group>"; };
 		A4F0F3BD1EAB5D2F00836F88 /* jsoneditor-icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jsoneditor-icons.svg"; sourceTree = "<group>"; };
 		A4F0F3BE1EAB5D2F00836F88 /* jsoneditor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jsoneditor.css; sourceTree = "<group>"; };
 		A4F0F3BF1EAB5D2F00836F88 /* jsoneditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsoneditor.js; sourceTree = "<group>"; };
@@ -364,8 +364,8 @@
 			children = (
 				A4A43F0F1E97E3BB0022D42B /* BaseModel.h */,
 				A4A43F101E97E3BB0022D42B /* BaseModel.m */,
-				A4A43F131E97E3BB0022D42B /* KLRCurrencyCNS.h */,
-				A4A43F141E97E3BB0022D42B /* KLRCurrencyCNS.m */,
+				A4A43F131E97E3BB0022D42B /* CurrencyCNS.h */,
+				A4A43F141E97E3BB0022D42B /* CurrencyCNS.m */,
 				A4A43F431E97EF550022D42B /* History */,
 			);
 			path = Models;
@@ -374,16 +374,16 @@
 		A4A43F431E97EF550022D42B /* History */ = {
 			isa = PBXGroup;
 			children = (
-				A4A43F481E97EF550022D42B /* KLRHistory.h */,
-				A4A43F491E97EF550022D42B /* KLRHistory.m */,
-				A4A43F5A1E97EF550022D42B /* KLRTransaction.h */,
-				A4A43F5B1E97EF550022D42B /* KLRTransaction.m */,
-				A4A43F461E97EF550022D42B /* KLRConversion.h */,
-				A4A43F471E97EF550022D42B /* KLRConversion.m */,
-				A4A43F4F1E97EF550022D42B /* KLRPayeeOrPayer.h */,
-				A4A43F501E97EF550022D42B /* KLRPayeeOrPayer.m */,
-				A4A43F441E97EF550022D42B /* KLRContactProfile.h */,
-				A4A43F451E97EF550022D42B /* KLRContactProfile.m */,
+				A4A43F481E97EF550022D42B /* History.h */,
+				A4A43F491E97EF550022D42B /* History.m */,
+				A4A43F5A1E97EF550022D42B /* Transaction.h */,
+				A4A43F5B1E97EF550022D42B /* Transaction.m */,
+				A4A43F461E97EF550022D42B /* Conversion.h */,
+				A4A43F471E97EF550022D42B /* Conversion.m */,
+				A4A43F4F1E97EF550022D42B /* PayeeOrPayer.h */,
+				A4A43F501E97EF550022D42B /* PayeeOrPayer.m */,
+				A4A43F441E97EF550022D42B /* ContactProfile.h */,
+				A4A43F451E97EF550022D42B /* ContactProfile.m */,
 				A4A43F511E97EF550022D42B /* KLRPayload */,
 				A4A43F4A1E97EF550022D42B /* KLRLinkedAccountForHistory */,
 			);
@@ -393,10 +393,10 @@
 		A4A43F4A1E97EF550022D42B /* KLRLinkedAccountForHistory */ = {
 			isa = PBXGroup;
 			children = (
-				A4A43F4B1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.h */,
-				A4A43F4C1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.m */,
-				A4A43F4D1E97EF550022D42B /* KLRLinkedAccountForHistory.h */,
-				A4A43F4E1E97EF550022D42B /* KLRLinkedAccountForHistory.m */,
+				A4A43F4B1E97EF550022D42B /* LinkedAccountDetailsForHistory.h */,
+				A4A43F4C1E97EF550022D42B /* LinkedAccountDetailsForHistory.m */,
+				A4A43F4D1E97EF550022D42B /* LinkedAccountForHistory.h */,
+				A4A43F4E1E97EF550022D42B /* LinkedAccountForHistory.m */,
 			);
 			path = KLRLinkedAccountForHistory;
 			sourceTree = "<group>";
@@ -406,8 +406,8 @@
 			children = (
 				A4A43F571E97EF550022D42B /* KLRRecipent */,
 				A4A43F521E97EF550022D42B /* KLRAccountDetails */,
-				A4A43F551E97EF550022D42B /* KLRPayload.h */,
-				A4A43F561E97EF550022D42B /* KLRPayload.m */,
+				A4A43F551E97EF550022D42B /* Payload.h */,
+				A4A43F561E97EF550022D42B /* Payload.m */,
 			);
 			path = KLRPayload;
 			sourceTree = "<group>";
@@ -415,8 +415,8 @@
 		A4A43F521E97EF550022D42B /* KLRAccountDetails */ = {
 			isa = PBXGroup;
 			children = (
-				A4A43F531E97EF550022D42B /* KLRAccountDetails.h */,
-				A4A43F541E97EF550022D42B /* KLRAccountDetails.m */,
+				A4A43F531E97EF550022D42B /* AccountDetails.h */,
+				A4A43F541E97EF550022D42B /* AccountDetails.m */,
 			);
 			path = KLRAccountDetails;
 			sourceTree = "<group>";
@@ -424,8 +424,8 @@
 		A4A43F571E97EF550022D42B /* KLRRecipent */ = {
 			isa = PBXGroup;
 			children = (
-				A4A43F581E97EF550022D42B /* KLRRecipient.h */,
-				A4A43F591E97EF550022D42B /* KLRRecipient.m */,
+				A4A43F581E97EF550022D42B /* Recipient.h */,
+				A4A43F591E97EF550022D42B /* Recipient.m */,
 			);
 			path = KLRRecipent;
 			sourceTree = "<group>";
@@ -433,13 +433,13 @@
 		A4A43F661E987C1C0022D42B /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				A4A43F671E987C710022D42B /* KLRApis.h */,
-				A4A43F6E1E988E190022D42B /* KLRUrlArgumentsFilter.h */,
-				A4A43F6F1E988E190022D42B /* KLRUrlArgumentsFilter.m */,
-				A444609A1E99460200BFD015 /* KLRRequestAccessory.h */,
-				A444609B1E99460200BFD015 /* KLRRequestAccessory.m */,
-				A4A43F681E987EB20022D42B /* KLRRequest.h */,
-				A4A43F691E987EB20022D42B /* KLRRequest.m */,
+				A4A43F671E987C710022D42B /* Apis.h */,
+				A4A43F6E1E988E190022D42B /* UrlArgumentsFilter.h */,
+				A4A43F6F1E988E190022D42B /* UrlArgumentsFilter.m */,
+				A444609A1E99460200BFD015 /* RequestAccessory.h */,
+				A444609B1E99460200BFD015 /* RequestAccessory.m */,
+				A4A43F681E987EB20022D42B /* Request.h */,
+				A4A43F691E987EB20022D42B /* Request.m */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -492,8 +492,8 @@
 		A4A43F9C1E9940B90022D42B /* AlterView */ = {
 			isa = PBXGroup;
 			children = (
-				A4A43F9D1E9940CE0022D42B /* KLRAlertView.h */,
-				A4A43F9E1E9940CE0022D42B /* KLRAlertView.m */,
+				A4A43F9D1E9940CE0022D42B /* AlertView.h */,
+				A4A43F9E1E9940CE0022D42B /* AlertView.m */,
 			);
 			path = AlterView;
 			sourceTree = "<group>";
@@ -524,8 +524,8 @@
 		A4DE3F4D1E9A762C00A6AD2F /* CacheManager */ = {
 			isa = PBXGroup;
 			children = (
-				A4DE3F4E1E9A763D00A6AD2F /* KLRCache.h */,
-				A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */,
+				A4DE3F4E1E9A763D00A6AD2F /* Cache.h */,
+				A4DE3F4F1E9A763D00A6AD2F /* Cache.m */,
 			);
 			path = CacheManager;
 			sourceTree = "<group>";
@@ -647,18 +647,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A43F801E98A4440022D42B /* ViewController.m in Sources */,
-				A4A43F651E97EF550022D42B /* KLRTransaction.m in Sources */,
-				A4A43F5C1E97EF550022D42B /* KLRContactProfile.m in Sources */,
-				A4A43F5D1E97EF550022D42B /* KLRConversion.m in Sources */,
+				A4A43F651E97EF550022D42B /* Transaction.m in Sources */,
+				A4A43F5C1E97EF550022D42B /* ContactProfile.m in Sources */,
+				A4A43F5D1E97EF550022D42B /* Conversion.m in Sources */,
 				A4A43ED71E97A80D0022D42B /* AFURLSessionManager.m in Sources */,
-				A4A43F6A1E987EB30022D42B /* KLRRequest.m in Sources */,
+				A4A43F6A1E987EB30022D42B /* Request.m in Sources */,
 				A4A43EEC1E97A8390022D42B /* SVIndefiniteAnimatedView.m in Sources */,
 				A4A43EFA1E97B4B70022D42B /* NSObject+YYModel.m in Sources */,
 				A4A43E9D1E97A73E0022D42B /* AppDelegate.m in Sources */,
 				A4A43ED81E97A80D0022D42B /* YTKBaseRequest.m in Sources */,
-				A4DE3F501E9A763D00A6AD2F /* KLRCache.m in Sources */,
-				A4A43F5F1E97EF550022D42B /* KLRLinkedAccountDetailsForHistory.m in Sources */,
-				A4A43F631E97EF550022D42B /* KLRPayload.m in Sources */,
+				A4DE3F501E9A763D00A6AD2F /* Cache.m in Sources */,
+				A4A43F5F1E97EF550022D42B /* LinkedAccountDetailsForHistory.m in Sources */,
+				A4A43F631E97EF550022D42B /* Payload.m in Sources */,
 				A4DE3F481E9A6CF000A6AD2F /* YYKVStorage.m in Sources */,
 				A4A43EDD1E97A80D0022D42B /* YTKNetworkAgent.m in Sources */,
 				A4A43EDE1E97A80D0022D42B /* YTKNetworkConfig.m in Sources */,
@@ -673,11 +673,11 @@
 				A4A43E9A1E97A73E0022D42B /* main.m in Sources */,
 				A4A43EED1E97A8390022D42B /* SVProgressAnimatedView.m in Sources */,
 				A4A43F971E9934780022D42B /* SCLSwitchView.m in Sources */,
-				A444609C1E99460200BFD015 /* KLRRequestAccessory.m in Sources */,
+				A444609C1E99460200BFD015 /* RequestAccessory.m in Sources */,
 				A4A43F9A1E9934780022D42B /* UIImage+ImageEffects.m in Sources */,
 				A4A43EE01E97A80D0022D42B /* YTKRequest.m in Sources */,
 				A4A43ED41E97A80D0022D42B /* AFSecurityPolicy.m in Sources */,
-				A4A43F701E988E190022D42B /* KLRUrlArgumentsFilter.m in Sources */,
+				A4A43F701E988E190022D42B /* UrlArgumentsFilter.m in Sources */,
 				A4A43F7E1E98A4440022D42B /* BaseViewController.m in Sources */,
 				A4A43ED91E97A80D0022D42B /* YTKBatchRequest.m in Sources */,
 				A4A43ED51E97A80D0022D42B /* AFURLRequestSerialization.m in Sources */,
@@ -686,23 +686,23 @@
 				A4A43EFB1E97B4B70022D42B /* YYClassInfo.m in Sources */,
 				A4A43ED61E97A80D0022D42B /* AFURLResponseSerialization.m in Sources */,
 				A4A43F1B1E97E3BB0022D42B /* BaseModel.m in Sources */,
-				A4A43F641E97EF550022D42B /* KLRRecipient.m in Sources */,
+				A4A43F641E97EF550022D42B /* Recipient.m in Sources */,
 				A4A43EEF1E97A8390022D42B /* SVProgressHUD.m in Sources */,
-				A4A43F1D1E97E3BB0022D42B /* KLRCurrencyCNS.m in Sources */,
+				A4A43F1D1E97E3BB0022D42B /* CurrencyCNS.m in Sources */,
 				A4A43F991E9934780022D42B /* SCLTimerDisplay.m in Sources */,
-				A4A43F621E97EF550022D42B /* KLRAccountDetails.m in Sources */,
+				A4A43F621E97EF550022D42B /* AccountDetails.m in Sources */,
 				A4A43ED21E97A80D0022D42B /* AFHTTPSessionManager.m in Sources */,
 				A4F0F3C91EAB5D2F00836F88 /* ZFLogView.m in Sources */,
-				A4A43F5E1E97EF550022D42B /* KLRHistory.m in Sources */,
+				A4A43F5E1E97EF550022D42B /* History.m in Sources */,
 				A4A43F7F1E98A4440022D42B /* RootViewController.m in Sources */,
 				A4A43EDA1E97A80D0022D42B /* YTKBatchRequestAgent.m in Sources */,
 				A4DE3F471E9A6CF000A6AD2F /* YYDiskCache.m in Sources */,
 				A4A43F941E9934780022D42B /* SCLAlertViewResponder.m in Sources */,
-				A4A43F611E97EF550022D42B /* KLRPayeeOrPayer.m in Sources */,
-				A4A43F601E97EF550022D42B /* KLRLinkedAccountForHistory.m in Sources */,
+				A4A43F611E97EF550022D42B /* PayeeOrPayer.m in Sources */,
+				A4A43F601E97EF550022D42B /* LinkedAccountForHistory.m in Sources */,
 				A4A43EDB1E97A80D0022D42B /* YTKChainRequest.m in Sources */,
 				A4A43EF01E97A8390022D42B /* SVRadialGradientLayer.m in Sources */,
-				A4A43F9F1E9940CE0022D42B /* KLRAlertView.m in Sources */,
+				A4A43F9F1E9940CE0022D42B /* AlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

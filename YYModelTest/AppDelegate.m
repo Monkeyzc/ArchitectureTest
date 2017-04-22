@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  YYModelTest
+//  ArchitectureTest
 //
 //  Created by zhaofei on 2017/4/7.
 //  Copyright © 2017年 zbull. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YTKNetworkConfig.h"
-#import "KLRUrlArgumentsFilter.h"
+#import "UrlArgumentsFilter.h"
 @interface AppDelegate ()
 
 @end
@@ -24,10 +24,10 @@
 
 - (void)setYTKNetworkConfig {
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-    // 设置 根url, 可以根据不同的bundleId + target来区分不同的apiUrl
+    
     config.baseUrl = @"http://localhost:3000";
     // 设置 app 的版本号✔️ 只有在添加了baseUrl的情况下才会生效  会以参数的形式拼接到 url 后面 http://hostname:port?version=1.1.0
-    [config addUrlFilter:[KLRUrlArgumentsFilter filterWithArguments:@{@"version": @"1.1.0"}]];
+    [config addUrlFilter:[UrlArgumentsFilter filterWithArguments:@{@"version": @"1.1.0"}]];
     
 }
 

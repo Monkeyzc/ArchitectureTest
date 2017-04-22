@@ -1,6 +1,6 @@
 //
 //  RootViewController.m
-//  YYModelTest
+//  ArchitectureTest
 //
 //  Created by zhaofei on 2017/4/8.
 //  Copyright © 2017年 zbull. All rights reserved.
@@ -9,7 +9,7 @@
 #import "RootViewController.h"
 #import "SVProgressHUD.h"
 #import "HistoryApi.h"
-#import "KLRCache.h"
+#import "Cache.h"
 @interface RootViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *cacheSizeLabel;
 
@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[KLRCache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
+    [[Cache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
         self.cacheSizeLabel.text = diskSize;
     }];
 }
@@ -33,7 +33,7 @@
 //    api.params = @{@"name": @"zhaofei"};
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
         
-        [[KLRCache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
+        [[Cache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
             self.cacheSizeLabel.text = diskSize;
         }];
 
@@ -45,7 +45,7 @@
 
 - (IBAction)clickRemoveCacheBtn:(id)sender {
     [SVProgressHUD show];
-    [[KLRCache shareInstance] removeAllCacheWithCompleteBlock:^{
+    [[Cache shareInstance] removeAllCacheWithCompleteBlock:^{
         [SVProgressHUD dismiss];
         self.cacheSizeLabel.text = @"0 B";
     }];

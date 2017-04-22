@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  YYModelTest
+//  ArchitectureTest
 //
 //  Created by zhaofei on 2017/4/7.
 //  Copyright © 2017年 zbull. All rights reserved.
@@ -11,11 +11,11 @@
 #import "HistoryApi.h"
 #import "YYModel.h"
 
-#import "KLRTransaction.h"
-#import "KLRHistory.h"
+#import "Transaction.h"
+#import "History.h"
 #import "YTKNetworkAgent.h"
 
-#import "KLRAlertView.h"
+#import "AlertView.h"
 #import "YYCache.h"
 
 @interface ViewController ()
@@ -38,7 +38,7 @@
         
         [self parseResponseData: request.responseJSONObject];
         
-        [KLRAlertView showSuccessWithMessage:@"Success" dismissCompleteBlock:^{
+        [AlertView showSuccessWithMessage:@"Success" dismissCompleteBlock:^{
             UIViewController *vc = [UIViewController new];
             vc.view.backgroundColor = [UIColor whiteColor];
             [self.navigationController pushViewController:vc animated: YES];
@@ -52,7 +52,7 @@
 - (void)parseResponseData: (NSDictionary *)responseData {
     NSDictionary *data = [responseData objectForKey:@"data"];
     NSDictionary *historyDic = [data objectForKey:@"history"];
-    KLRHistory *histroy = [KLRHistory createModelWithJson: historyDic];
+    History *histroy = [History createModelWithJson: historyDic];
     NSLog(@"history model: %@", histroy);
 }
 

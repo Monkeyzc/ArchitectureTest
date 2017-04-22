@@ -1,6 +1,6 @@
 //
 //  HistoryApi.m
-//  YYModelTest
+//  ArchitectureTest
 //
 //  Created by zhaofei on 2017/4/7.
 //  Copyright © 2017年 zbull. All rights reserved.
@@ -11,8 +11,7 @@
 @implementation HistoryApi
 
 - (NSString *)requestUrl {
-    return @"https://staging-api.kelingkeling.com/history";
-//    return @"/getAllUsers";
+    return @"http://localhost:3000/history";
 }
 
 @end
