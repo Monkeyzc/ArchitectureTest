@@ -11,6 +11,11 @@
 #import "KLRAlertView.h"
 #import "KLRRequestAccessory.h"
 #import "KLRCache.h"
+#import "ZFLogView.h"
+
+@interface KLRRequest()
+@property (nonatomic, strong, readwrite) NSArray *requestMethods;
+@end
 
 @implementation KLRRequest
 
@@ -32,6 +37,10 @@
     return @{@"Authorization": @"Bearer 04b4dac0e94333b45474a6acc4f0eeea9ef74e73"};
 }
 
+- (id)requestArgument {
+    return self.params;
+}
+
 - (void)requestCompleteFilter {
     if (self.cache) {
         [[KLRCache shareInstance] cacheData:self.responseJSONObject withKey:NSStringFromClass([self class]) completeBlock:^{
@@ -50,20 +59,37 @@
     
     NSLog(@"%@", self.responseJSONObject);
     
+    NSMutableDictionary *logViewparams = [NSMutableDictionary dictionary];
+    
+    [logViewparams setObject: self.requestUrl ? self.requestUrl : [NSNull null] forKey: @"url"];
+    [logViewparams setObject:  self.requestMethods[self.requestMethod] forKey: @"requestMethod"];
+    [logViewparams setObject:  [self requestHeaderFieldValueDictionary] ? [self requestHeaderFieldValueDictionary] : @{} forKey: @"requestHeaders"];
+    [logViewparams setObject:  self.requestArgument ? self.requestArgument : [NSNull null] forKey: @"requestArgument"];
+    [logViewparams setObject:  self.responseJSONObject ? self.responseJSONObject : [NSNull null] forKey: @"responseJSONObject"];
+    
     if (self.responseJSONObject == nil || self.responseStatusCode == 0 || self.responseStatusCode == 503) {
         NSLog(@"服务器挂掉了!😓");
         [KLRAlertView showErrorWithMessage:@"Something wrong with network, please check it" dismissCompleteBlock:^{
-            
+            // show request log only for develop
+            [ZFLogView showLogViewWithParams: logViewparams];
         }];
     } else {
         [KLRAlertView showErrorWithMessage:[self getErrorMessage] dismissCompleteBlock:^{
-            
+            // show request log only for develop
+            [ZFLogView showLogViewWithParams: logViewparams];
         }];
     }
 }
 
 - (NSString *)getErrorMessage {
     return [self.responseJSONObject objectForKey:@"message"];
+}
+
+- (NSArray *)requestMethods {
+    if (!_requestMethods) {
+        _requestMethods = @[@"GET", @"POST", @"HEAD", @"PUT", @"DELETE", @"PATCH"];
+    }
+    return _requestMethods;
 }
 
 @end

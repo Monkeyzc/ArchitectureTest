@@ -68,6 +68,12 @@
 		A4DE3F491E9A6CF000A6AD2F /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */; };
 		A4DE3F4C1E9A6D2700A6AD2F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */; };
 		A4DE3F501E9A763D00A6AD2F /* KLRCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */; };
+		A4F0F3C41EAB5D2F00836F88 /* jsoneditor-icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3BD1EAB5D2F00836F88 /* jsoneditor-icons.svg */; };
+		A4F0F3C51EAB5D2F00836F88 /* jsoneditor.css in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3BE1EAB5D2F00836F88 /* jsoneditor.css */; };
+		A4F0F3C61EAB5D2F00836F88 /* jsoneditor.js in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3BF1EAB5D2F00836F88 /* jsoneditor.js */; };
+		A4F0F3C71EAB5D2F00836F88 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3C01EAB5D2F00836F88 /* index.html */; };
+		A4F0F3C81EAB5D2F00836F88 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F3C11EAB5D2F00836F88 /* warning.png */; };
+		A4F0F3C91EAB5D2F00836F88 /* ZFLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F3C31EAB5D2F00836F88 /* ZFLogView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,7 +169,6 @@
 		A4A43F791E98A4440022D42B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		A4A43F7A1E98A4440022D42B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A4A43F7B1E98A4440022D42B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		A4A43F7C1E98A4440022D42B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4A43F7D1E98A4440022D42B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4A43F821E9934780022D42B /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
 		A4A43F831E9934780022D42B /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
@@ -195,6 +200,14 @@
 		A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A4DE3F4E1E9A763D00A6AD2F /* KLRCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRCache.h; sourceTree = "<group>"; };
 		A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRCache.m; sourceTree = "<group>"; };
+		A4F0F3BD1EAB5D2F00836F88 /* jsoneditor-icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jsoneditor-icons.svg"; sourceTree = "<group>"; };
+		A4F0F3BE1EAB5D2F00836F88 /* jsoneditor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jsoneditor.css; sourceTree = "<group>"; };
+		A4F0F3BF1EAB5D2F00836F88 /* jsoneditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsoneditor.js; sourceTree = "<group>"; };
+		A4F0F3C01EAB5D2F00836F88 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		A4F0F3C11EAB5D2F00836F88 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		A4F0F3C21EAB5D2F00836F88 /* ZFLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLogView.h; sourceTree = "<group>"; };
+		A4F0F3C31EAB5D2F00836F88 /* ZFLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLogView.m; sourceTree = "<group>"; };
+		A4F0F3CA1EAB5D7200836F88 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +273,7 @@
 		A4A43EAF1E97A80D0022D42B /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				A4F0F3B91EAB5D2F00836F88 /* ZFLogView */,
 				A4DE3F3D1E9A6CF000A6AD2F /* YYCache */,
 				A4A43F811E9934780022D42B /* SCLAlertView */,
 				A4A43EF41E97B4B70022D42B /* YYModel */,
@@ -437,7 +451,7 @@
 				A4A43F791E98A4440022D42B /* BaseViewController.m */,
 				A4A43F7A1E98A4440022D42B /* RootViewController.h */,
 				A4A43F7B1E98A4440022D42B /* RootViewController.m */,
-				A4A43F7C1E98A4440022D42B /* ViewController.h */,
+				A4F0F3CA1EAB5D7200836F88 /* ViewController.h */,
 				A4A43F7D1E98A4440022D42B /* ViewController.m */,
 			);
 			path = ViewControllers;
@@ -516,6 +530,44 @@
 			path = CacheManager;
 			sourceTree = "<group>";
 		};
+		A4F0F3B91EAB5D2F00836F88 /* ZFLogView */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F3BA1EAB5D2F00836F88 /* FormartterJson */,
+				A4F0F3C11EAB5D2F00836F88 /* warning.png */,
+				A4F0F3C21EAB5D2F00836F88 /* ZFLogView.h */,
+				A4F0F3C31EAB5D2F00836F88 /* ZFLogView.m */,
+			);
+			path = ZFLogView;
+			sourceTree = "<group>";
+		};
+		A4F0F3BA1EAB5D2F00836F88 /* FormartterJson */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F3BB1EAB5D2F00836F88 /* dist */,
+				A4F0F3C01EAB5D2F00836F88 /* index.html */,
+			);
+			path = FormartterJson;
+			sourceTree = "<group>";
+		};
+		A4F0F3BB1EAB5D2F00836F88 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F3BC1EAB5D2F00836F88 /* img */,
+				A4F0F3BE1EAB5D2F00836F88 /* jsoneditor.css */,
+				A4F0F3BF1EAB5D2F00836F88 /* jsoneditor.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		A4F0F3BC1EAB5D2F00836F88 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F3BD1EAB5D2F00836F88 /* jsoneditor-icons.svg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -577,7 +629,12 @@
 			files = (
 				A4A43EA81E97A73E0022D42B /* LaunchScreen.storyboard in Resources */,
 				A4A43EA51E97A73E0022D42B /* Assets.xcassets in Resources */,
+				A4F0F3C61EAB5D2F00836F88 /* jsoneditor.js in Resources */,
 				A4A43EA31E97A73E0022D42B /* Main.storyboard in Resources */,
+				A4F0F3C41EAB5D2F00836F88 /* jsoneditor-icons.svg in Resources */,
+				A4F0F3C71EAB5D2F00836F88 /* index.html in Resources */,
+				A4F0F3C81EAB5D2F00836F88 /* warning.png in Resources */,
+				A4F0F3C51EAB5D2F00836F88 /* jsoneditor.css in Resources */,
 				A4A43EEE1E97A8390022D42B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,6 +692,7 @@
 				A4A43F991E9934780022D42B /* SCLTimerDisplay.m in Sources */,
 				A4A43F621E97EF550022D42B /* KLRAccountDetails.m in Sources */,
 				A4A43ED21E97A80D0022D42B /* AFHTTPSessionManager.m in Sources */,
+				A4F0F3C91EAB5D2F00836F88 /* ZFLogView.m in Sources */,
 				A4A43F5E1E97EF550022D42B /* KLRHistory.m in Sources */,
 				A4A43F7F1E98A4440022D42B /* RootViewController.m in Sources */,
 				A4A43EDA1E97A80D0022D42B /* YTKBatchRequestAgent.m in Sources */,
@@ -767,6 +825,10 @@
 				DEVELOPMENT_TEAM = GLUYCH7U4H;
 				INFOPLIST_FILE = YYModelTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YYModelTest/Libs/ZFLogView",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zbull.YYModelTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -779,6 +841,10 @@
 				DEVELOPMENT_TEAM = GLUYCH7U4H;
 				INFOPLIST_FILE = YYModelTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YYModelTest/Libs/ZFLogView",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zbull.YYModelTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -24,7 +24,7 @@
     SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
     alert.showAnimationType =  SCLAlertViewShowAnimationSlideInToCenter;
     [alert showError:message subTitle:nil closeButtonTitle:@"OK" duration:0.0f];
-    [alert alertShowAnimationIsCompleted:^{
+    [alert alertDismissAnimationIsCompleted:^{
         if (completeBlock) {
             completeBlock();
         }

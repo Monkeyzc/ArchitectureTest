@@ -30,4 +30,6 @@
  是否采用YYCache 缓存机制, 默认YES
  */
 @property (nonatomic, assign, readwrite) BOOL cache;
+
+@property (nonatomic, strong, readwrite) id params;
 @end

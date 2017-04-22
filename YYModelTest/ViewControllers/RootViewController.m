@@ -30,6 +30,7 @@
     
     NSLog(@"root---即将展示");
     HistoryApi *api = [HistoryApi createApiWithNeedDisplayHUD: NO];
+//    api.params = @{@"name": @"zhaofei"};
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest * _Nonnull request) {
         
         [[KLRCache shareInstance] countAllCacheSizeWithCompleteBlock:^(NSString *diskSize) {
