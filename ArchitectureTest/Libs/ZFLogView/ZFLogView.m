@@ -86,6 +86,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
     NSLog(@"log view did start load");
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
+    NSLog(@"log view did finish load");
     // json -> string
     NSData *data = [NSJSONSerialization dataWithJSONObject: self.params options: NSJSONWritingPrettyPrinted error:nil];
     NSMutableString *string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];

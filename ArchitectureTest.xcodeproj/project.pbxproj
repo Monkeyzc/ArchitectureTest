@@ -52,12 +52,6 @@
 		A4F0F4AA1EAB8E9100836F88 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4411EAB8E9100836F88 /* YYMemoryCache.m */; };
 		A4F0F4AB1EAB8E9100836F88 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4441EAB8E9100836F88 /* NSObject+YYModel.m */; };
 		A4F0F4AC1EAB8E9100836F88 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4461EAB8E9100836F88 /* YYClassInfo.m */; };
-		A4F0F4AD1EAB8E9100836F88 /* jsoneditor-icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F44C1EAB8E9100836F88 /* jsoneditor-icons.svg */; };
-		A4F0F4AE1EAB8E9100836F88 /* jsoneditor.css in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F44D1EAB8E9100836F88 /* jsoneditor.css */; };
-		A4F0F4AF1EAB8E9100836F88 /* jsoneditor.js in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F44E1EAB8E9100836F88 /* jsoneditor.js */; };
-		A4F0F4B01EAB8E9100836F88 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F44F1EAB8E9100836F88 /* index.html */; };
-		A4F0F4B11EAB8E9100836F88 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F4501EAB8E9100836F88 /* warning.png */; };
-		A4F0F4B21EAB8E9100836F88 /* ZFLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4521EAB8E9100836F88 /* ZFLogView.m */; };
 		A4F0F4B31EAB8E9100836F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4531EAB8E9100836F88 /* main.m */; };
 		A4F0F4B41EAB8E9100836F88 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4561EAB8E9100836F88 /* BaseModel.m */; };
 		A4F0F4B51EAB8E9100836F88 /* CurrencyCNS.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4581EAB8E9100836F88 /* CurrencyCNS.m */; };
@@ -75,6 +69,12 @@
 		A4F0F4C11EAB8E9100836F88 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4781EAB8E9100836F88 /* BaseViewController.m */; };
 		A4F0F4C21EAB8E9100836F88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F47A1EAB8E9100836F88 /* RootViewController.m */; };
 		A4F0F4C31EAB8E9100836F88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F47C1EAB8E9100836F88 /* ViewController.m */; };
+		A4F0F4CF1EAB912400836F88 /* jsoneditor-icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F4C81EAB912400836F88 /* jsoneditor-icons.svg */; };
+		A4F0F4D01EAB912400836F88 /* jsoneditor.css in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F4C91EAB912400836F88 /* jsoneditor.css */; };
+		A4F0F4D11EAB912400836F88 /* jsoneditor.js in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F4CA1EAB912400836F88 /* jsoneditor.js */; };
+		A4F0F4D21EAB912400836F88 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F4CB1EAB912400836F88 /* index.html */; };
+		A4F0F4D31EAB912400836F88 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F0F4CC1EAB912400836F88 /* warning.png */; };
+		A4F0F4D41EAB912400836F88 /* ZFLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F0F4CE1EAB912400836F88 /* ZFLogView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,13 +169,6 @@
 		A4F0F4451EAB8E9100836F88 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
 		A4F0F4461EAB8E9100836F88 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		A4F0F4471EAB8E9100836F88 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
-		A4F0F44C1EAB8E9100836F88 /* jsoneditor-icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jsoneditor-icons.svg"; sourceTree = "<group>"; };
-		A4F0F44D1EAB8E9100836F88 /* jsoneditor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jsoneditor.css; sourceTree = "<group>"; };
-		A4F0F44E1EAB8E9100836F88 /* jsoneditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsoneditor.js; sourceTree = "<group>"; };
-		A4F0F44F1EAB8E9100836F88 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		A4F0F4501EAB8E9100836F88 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
-		A4F0F4511EAB8E9100836F88 /* ZFLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLogView.h; sourceTree = "<group>"; };
-		A4F0F4521EAB8E9100836F88 /* ZFLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLogView.m; sourceTree = "<group>"; };
 		A4F0F4531EAB8E9100836F88 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4F0F4551EAB8E9100836F88 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		A4F0F4561EAB8E9100836F88 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -209,6 +202,13 @@
 		A4F0F47A1EAB8E9100836F88 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A4F0F47B1EAB8E9100836F88 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4F0F47C1EAB8E9100836F88 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4F0F4C81EAB912400836F88 /* jsoneditor-icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jsoneditor-icons.svg"; sourceTree = "<group>"; };
+		A4F0F4C91EAB912400836F88 /* jsoneditor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jsoneditor.css; sourceTree = "<group>"; };
+		A4F0F4CA1EAB912400836F88 /* jsoneditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsoneditor.js; sourceTree = "<group>"; };
+		A4F0F4CB1EAB912400836F88 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		A4F0F4CC1EAB912400836F88 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		A4F0F4CD1EAB912400836F88 /* ZFLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLogView.h; sourceTree = "<group>"; };
+		A4F0F4CE1EAB912400836F88 /* ZFLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLogView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,8 +252,8 @@
 			isa = PBXGroup;
 			children = (
 				A4F0F3E51EAB8E9100836F88 /* AppDelegate.h */,
-				A4F0F3F61EAB8E9100836F88 /* HistoryApi.h */,
 				A4F0F3E61EAB8E9100836F88 /* AppDelegate.m */,
+				A4F0F3F61EAB8E9100836F88 /* HistoryApi.h */,
 				A4F0F3F71EAB8E9100836F88 /* HistoryApi.m */,
 				A4F0F4531EAB8E9100836F88 /* main.m */,
 				A4F0F3F81EAB8E9100836F88 /* Info.plist */,
@@ -296,13 +296,13 @@
 		A4F0F3F91EAB8E9100836F88 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				A4F0F4C41EAB912400836F88 /* ZFLogView */,
 				A4F0F3FA1EAB8E9100836F88 /* AFNetworking */,
 				A4F0F4081EAB8E9100836F88 /* SCLAlertView */,
 				A4F0F41A1EAB8E9100836F88 /* SVProgressHUD */,
 				A4F0F4251EAB8E9100836F88 /* YTKNetwork */,
 				A4F0F4391EAB8E9100836F88 /* YYCache */,
 				A4F0F4421EAB8E9100836F88 /* YYModel */,
-				A4F0F4481EAB8E9100836F88 /* ZFLogView */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -421,44 +421,6 @@
 			path = YYModel;
 			sourceTree = "<group>";
 		};
-		A4F0F4481EAB8E9100836F88 /* ZFLogView */ = {
-			isa = PBXGroup;
-			children = (
-				A4F0F4491EAB8E9100836F88 /* FormartterJson */,
-				A4F0F4501EAB8E9100836F88 /* warning.png */,
-				A4F0F4511EAB8E9100836F88 /* ZFLogView.h */,
-				A4F0F4521EAB8E9100836F88 /* ZFLogView.m */,
-			);
-			path = ZFLogView;
-			sourceTree = "<group>";
-		};
-		A4F0F4491EAB8E9100836F88 /* FormartterJson */ = {
-			isa = PBXGroup;
-			children = (
-				A4F0F44A1EAB8E9100836F88 /* dist */,
-				A4F0F44F1EAB8E9100836F88 /* index.html */,
-			);
-			path = FormartterJson;
-			sourceTree = "<group>";
-		};
-		A4F0F44A1EAB8E9100836F88 /* dist */ = {
-			isa = PBXGroup;
-			children = (
-				A4F0F44B1EAB8E9100836F88 /* img */,
-				A4F0F44D1EAB8E9100836F88 /* jsoneditor.css */,
-				A4F0F44E1EAB8E9100836F88 /* jsoneditor.js */,
-			);
-			path = dist;
-			sourceTree = "<group>";
-		};
-		A4F0F44B1EAB8E9100836F88 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				A4F0F44C1EAB8E9100836F88 /* jsoneditor-icons.svg */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
 		A4F0F4541EAB8E9100836F88 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,6 +522,44 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		A4F0F4C41EAB912400836F88 /* ZFLogView */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F4C51EAB912400836F88 /* FormartterJson */,
+				A4F0F4CC1EAB912400836F88 /* warning.png */,
+				A4F0F4CD1EAB912400836F88 /* ZFLogView.h */,
+				A4F0F4CE1EAB912400836F88 /* ZFLogView.m */,
+			);
+			path = ZFLogView;
+			sourceTree = "<group>";
+		};
+		A4F0F4C51EAB912400836F88 /* FormartterJson */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F4C61EAB912400836F88 /* dist */,
+				A4F0F4CB1EAB912400836F88 /* index.html */,
+			);
+			path = FormartterJson;
+			sourceTree = "<group>";
+		};
+		A4F0F4C61EAB912400836F88 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F4C71EAB912400836F88 /* img */,
+				A4F0F4C91EAB912400836F88 /* jsoneditor.css */,
+				A4F0F4CA1EAB912400836F88 /* jsoneditor.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		A4F0F4C71EAB912400836F88 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A4F0F4C81EAB912400836F88 /* jsoneditor-icons.svg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -619,15 +619,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F0F4D31EAB912400836F88 /* warning.png in Resources */,
 				A4F0F48A1EAB8E9100836F88 /* Info.plist in Resources */,
-				A4F0F4AF1EAB8E9100836F88 /* jsoneditor.js in Resources */,
+				A4F0F4D11EAB912400836F88 /* jsoneditor.js in Resources */,
 				A4F0F49B1EAB8E9100836F88 /* SVProgressHUD.bundle in Resources */,
-				A4F0F4B01EAB8E9100836F88 /* index.html in Resources */,
-				A4F0F4AE1EAB8E9100836F88 /* jsoneditor.css in Resources */,
+				A4F0F4D21EAB912400836F88 /* index.html in Resources */,
 				A4F0F4831EAB8E9100836F88 /* Main.storyboard in Resources */,
+				A4F0F4D01EAB912400836F88 /* jsoneditor.css in Resources */,
 				A4F0F4811EAB8E9100836F88 /* Assets.xcassets in Resources */,
-				A4F0F4AD1EAB8E9100836F88 /* jsoneditor-icons.svg in Resources */,
-				A4F0F4B11EAB8E9100836F88 /* warning.png in Resources */,
+				A4F0F4CF1EAB912400836F88 /* jsoneditor-icons.svg in Resources */,
 				A4F0F4821EAB8E9100836F88 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,7 +675,6 @@
 				A4F0F47D1EAB8E9100836F88 /* Request.m in Sources */,
 				A4F0F4A81EAB8E9100836F88 /* YYDiskCache.m in Sources */,
 				A4F0F4A31EAB8E9100836F88 /* YTKNetworkAgent.m in Sources */,
-				A4F0F4B21EAB8E9100836F88 /* ZFLogView.m in Sources */,
 				A4F0F4A01EAB8E9100836F88 /* YTKBatchRequestAgent.m in Sources */,
 				A4F0F4971EAB8E9100836F88 /* SCLTimerDisplay.m in Sources */,
 				A4F0F48B1EAB8E9100836F88 /* AFHTTPSessionManager.m in Sources */,
@@ -686,6 +685,7 @@
 				A4F0F4BF1EAB8E9100836F88 /* Transaction.m in Sources */,
 				A4F0F4A71EAB8E9100836F88 /* YYCache.m in Sources */,
 				A4F0F49F1EAB8E9100836F88 /* YTKBatchRequest.m in Sources */,
+				A4F0F4D41EAB912400836F88 /* ZFLogView.m in Sources */,
 				A4F0F4C11EAB8E9100836F88 /* BaseViewController.m in Sources */,
 				A4F0F4AA1EAB8E9100836F88 /* YYMemoryCache.m in Sources */,
 				A4F0F4981EAB8E9100836F88 /* UIImage+ImageEffects.m in Sources */,
