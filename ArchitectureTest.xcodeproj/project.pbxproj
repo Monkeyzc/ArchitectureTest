@@ -68,10 +68,6 @@
 		A4DE3F491E9A6CF000A6AD2F /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F451E9A6CF000A6AD2F /* YYMemoryCache.m */; };
 		A4DE3F4C1E9A6D2700A6AD2F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */; };
 		A4DE3F501E9A763D00A6AD2F /* KLRCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */; };
-		A4F0653C1EAA6545000E65F6 /* jsoneditor-icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = A4F065381EAA6545000E65F6 /* jsoneditor-icons.svg */; };
-		A4F0653D1EAA6545000E65F6 /* jsoneditor.css in Resources */ = {isa = PBXBuildFile; fileRef = A4F065391EAA6545000E65F6 /* jsoneditor.css */; };
-		A4F0653E1EAA6545000E65F6 /* jsoneditor.js in Resources */ = {isa = PBXBuildFile; fileRef = A4F0653A1EAA6545000E65F6 /* jsoneditor.js */; };
-		A4F0653F1EAA6545000E65F6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F0653B1EAA6545000E65F6 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,10 +195,6 @@
 		A4DE3F4B1E9A6D2700A6AD2F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A4DE3F4E1E9A763D00A6AD2F /* KLRCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRCache.h; sourceTree = "<group>"; };
 		A4DE3F4F1E9A763D00A6AD2F /* KLRCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRCache.m; sourceTree = "<group>"; };
-		A4F065381EAA6545000E65F6 /* jsoneditor-icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jsoneditor-icons.svg"; sourceTree = "<group>"; };
-		A4F065391EAA6545000E65F6 /* jsoneditor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jsoneditor.css; sourceTree = "<group>"; };
-		A4F0653A1EAA6545000E65F6 /* jsoneditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsoneditor.js; sourceTree = "<group>"; };
-		A4F0653B1EAA6545000E65F6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,7 +244,6 @@
 				A4A43F9B1E9940B90022D42B /* Utils */,
 				A4A43EAF1E97A80D0022D42B /* Libs */,
 				A4A43E981E97A73E0022D42B /* Supporting Files */,
-				A4F065351EAA6545000E65F6 /* FormartterJson */,
 			);
 			name = ArchitectureTest;
 			path = YYModelTest;
@@ -525,33 +516,6 @@
 			path = CacheManager;
 			sourceTree = "<group>";
 		};
-		A4F065351EAA6545000E65F6 /* FormartterJson */ = {
-			isa = PBXGroup;
-			children = (
-				A4F065361EAA6545000E65F6 /* dist */,
-				A4F0653B1EAA6545000E65F6 /* index.html */,
-			);
-			path = FormartterJson;
-			sourceTree = "<group>";
-		};
-		A4F065361EAA6545000E65F6 /* dist */ = {
-			isa = PBXGroup;
-			children = (
-				A4F065371EAA6545000E65F6 /* img */,
-				A4F065391EAA6545000E65F6 /* jsoneditor.css */,
-				A4F0653A1EAA6545000E65F6 /* jsoneditor.js */,
-			);
-			path = dist;
-			sourceTree = "<group>";
-		};
-		A4F065371EAA6545000E65F6 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				A4F065381EAA6545000E65F6 /* jsoneditor-icons.svg */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -613,11 +577,7 @@
 			files = (
 				A4A43EA81E97A73E0022D42B /* LaunchScreen.storyboard in Resources */,
 				A4A43EA51E97A73E0022D42B /* Assets.xcassets in Resources */,
-				A4F0653E1EAA6545000E65F6 /* jsoneditor.js in Resources */,
 				A4A43EA31E97A73E0022D42B /* Main.storyboard in Resources */,
-				A4F0653C1EAA6545000E65F6 /* jsoneditor-icons.svg in Resources */,
-				A4F0653F1EAA6545000E65F6 /* index.html in Resources */,
-				A4F0653D1EAA6545000E65F6 /* jsoneditor.css in Resources */,
 				A4A43EEE1E97A8390022D42B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
