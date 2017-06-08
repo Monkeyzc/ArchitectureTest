@@ -1,2 +1,5 @@
 language: objective-c
-script: xcodebuild -project ArchitectureTest.xcodeproj -scheme ArchitectureTest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+xcode_project: ArchitectureTest.xcodeproj
+xcode_scheme: ArchitectureTest
+xcode_sdk: iphonesimulator10.3
+osx_image: xcode8.3
