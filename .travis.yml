@@ -3,3 +3,6 @@ xcode_project: ArchitectureTest.xcodeproj
 xcode_scheme: ArchitectureTest
 xcode_sdk: iphonesimulator10.3
 osx_image: xcode8.3
+
+script:
+    - xcodebuild -project ArchitectureTest.xcodeproj -scheme ArchitectureTest -sdk iphonesimulator10.3
