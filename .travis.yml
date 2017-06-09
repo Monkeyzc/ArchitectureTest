@@ -5,4 +5,7 @@ xcode_sdk: iphonesimulator10.3
 osx_image: xcode8.3
 
 script:
-    - xcodebuild -project ArchitectureTest.xcodeproj -scheme ArchitectureTest -sdk iphonesimulator10.3
+    - xcodebuild -project ArchitectureTest.xcodeproj -scheme ArchitectureTest -sdk iphonesimulator10.3 -enableCodeCoverage YES
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash) -t :f053ea98-1aaf-4885-8994-1f6c34fd2254
