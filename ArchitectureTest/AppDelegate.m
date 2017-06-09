@@ -21,7 +21,7 @@
     // Override point for customization after application launch.
     [self setYTKNetworkConfig];
     //test travis ci
-    code
+    
     return YES;
 }
 
