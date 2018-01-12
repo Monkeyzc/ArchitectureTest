@@ -8,4 +8,4 @@ script:
     - xcodebuild -project ArchitectureTest.xcodeproj -scheme ArchitectureTest -sdk iphonesimulator10.3 GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 
 after_success:
-    - bash <(curl -s https://codecov.io/bash) -t :f053ea98-1aaf-4885-8994-1f6c34fd2254
+    - bash <(curl -s https://codecov.io/bash)
